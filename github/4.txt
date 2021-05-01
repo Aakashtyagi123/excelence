@@ -1,0 +1,13 @@
+var url :String ="https://www.example.com/api/get/1 "
+var request :NSMutableRequest=NSMutableRequest()
+request.url=NSURL(String:url)
+request.HTTPMethod="get"
+NSURL Connection.sendAsynchronousRequest(request,queue:NSOperation(),complitionHandler:      {(response!,data:NSData!,error:NSError!)->Void in}
+var error:AutorealeasingUnsafeMutuablePointer<NSError?>=nil
+let jsonResult:NSdictionary!=NSJSONSerialization.JSONOBJECTWithData    (data,option:NSJSONReadingOptions.MutableContainers,error:error)as?NSDictionary
+if(jsonResult!=Null){
+   //procss jsonresult
+}
+else{
+//couldn't load json look error
+}

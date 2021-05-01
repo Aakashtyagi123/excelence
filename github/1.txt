@@ -1,0 +1,13 @@
+Define an array of numbers (use any random numbers). Write a program to print only the even numbers of the array. Do not use any library functions, need to do via for loops only.
+
+<script>
+var arr=[4,5,7,8,10,11,13,14];
+n=arr.length
+for(count=0;count<n;count++)
+{
+      if( arr[count]%2==0)
+        {
+   	console.log(arr[count])
+        }
+}
+</script>

@@ -1,0 +1,8 @@
+var firstRun=obj.sort(function(a,b){
+   return(a.id-b.id);
+});
+var secondRun=firstRun.sort(function(a,b){
+  return(a.name - b.name);
+});
+
+console.log(secondRun);

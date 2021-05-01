@@ -1,0 +1,24 @@
+Find the maximum consecutive 1's in an array of 0's and 1's.
+<script>
+var arr=[0,1,0,1,1,0,1,0,1,1,,0,1,1,1,1];
+<script>
+n=arr.length
+var result=0;
+for(i=0;i<n;i++)
+{
+     if(arr[i]==0)
+        {
+               count =0;
+        }
+     else
+         {
+	count++
+	if(count>result)
+                         {
+	              result=count;
+	          }
+           }
+}
+console.log(result);
+
+</script>
